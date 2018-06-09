@@ -112,9 +112,8 @@ li a.active	{
 	background: #fce7d6;
 }
 
-hr{
-	margin: 0;
-	border-top: 5px solid white;
+.hrslide{
+	border-bottom: 1px solid white;
 }
 .slideimage{
 	margin: 0;
@@ -127,19 +126,21 @@ hr{
 	gallery class from javascript
 */
 h1{
-	margin-top: 30px;
+	margin: 0;
+	padding-top: 3px;
 	font-family:Seven-Swordmen-BB;
-	color: green;
+	color: white;
 	font-style: italic;
 	text-align: center;
 	font-size: 3vw;
+	background: orange;
 }
-.hrgallery{
-	border-top: 5px solid black;
-}
+
 .gallery{
 	margin:auto;
 	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 .galleryimage{
 	
