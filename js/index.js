@@ -61,9 +61,9 @@ function loadgallery(){
 	var gal = document.getElementsByClassName("gallery");
 
 	
-	//specify number of images is 5 in folder
-	for (var i = 0; i < 5; i++) {
-		var jpgsrc = "gallery/" + (i + 1) + '.jpg';
+	//specify number of images is 64 in folder
+	for (var i = 0; i < 64; i++) {
+		var jpgsrc = "gallery/image(" + (i + 1) + ').jpg';
 		jpgimg[i] = new Image();
 		jpgimg[i].src = jpgsrc;
 		
@@ -84,7 +84,7 @@ function loadgallery(){
 function openimage(i){
 	// Get the modal
 	var modal = document.getElementById('myModal');
-	var modalImg = document.getElementById("img01");
+	var modalImg = document.getElementById("modimg");
 	modal.style.display = "block";
 	modalImg.src = jpgimg[i].src;
 	
