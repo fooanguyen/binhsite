@@ -12,50 +12,52 @@
 </title>
 
 <body>
-	<div class="body">
-		<div class="topcontainer">
+	<div class="menucontainer">
+		<!--store-name-->
+		<div class="storename">
 		</div>
 		
-		<div class="outercontainer">
-			<div class="menucontainer">
-				<!--store-name-->
-				<div class="storename">
-				</div>
-				
-				<!--navigation menu-->
-				<div class="navigationmenu">
-					<ul>
-						<li><a class="active" href="index.html">HOME</a></li>
-						<li><a href="services.html">SERVICES</a></li>
-						<li><a href="appointment.html">APPOINTMENT</a></li>
-						<li><a href="contact.html">CONTACT US</a></li>
-					</ul>
-				</div>
-			</div>
+		<!--navigation menu-->
+		<div class="navigationmenu">
+			<ul>
+				<li><a class="active" href="index.html">HOME</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="appointment.html">APPOINTMENT</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
 		</div>
-		
-		<div class="hrslide"></div>
-		<div class="slideshow">
-			<!--ensure images with same height and width-->
-			<img class="slideimage">
-		</div>
-		<div class="hrslide"></div>
-		
-		<h1>GALLERY</h1>
-		<div class="gallery"></div>
-		<div id="myModal" class="modal">
-		  <span class="close">&times;</span>
-		  <img class="modal-content" id="img01">
-		</div>
-
-		<div class="clear"></div>
-		<div class="hrslide"></div>
-		<br>
-		
-		58 Mountain Rd Glen Burnie, MD 21060 &emsp; | &emsp;  (410) 768-0767 &emsp; | &emsp; Serenity Nails & Spa
-		<br><br>
 	</div>
 	
+	<div class="hrslide"></div>
+	<div class="slideshow">
+		<!--ensure images with same height and width-->
+		<img class="slideimage">
+	</div>
+	<div class="hrslide"></div>
+	
+	<div class="galleryhr">GALLERY</div>
+	<div class="hrslide"></div>
+	
+	
+	<div class="gallery"></div>
+	<div id="myModal" class="modal">
+	  <span class="close">&times;</span>
+	  <img class="modal-content" id="modimg">
+	</div>
+
+	<div class="clear"></div>
+	
+	<div class="galbutton">
+	<input type="button" class="previous button" value="<< previous" onclick="previous();">
+	<input type="button" class="next button" value="next >>" onclick="next();">
+	</div>
+	<div class="hrslide"></div>
+
+	<div class="footer">
+		58 Mountain Rd Glen Burnie, MD 21060 &emsp; | &emsp;  (410) 768-0767 &emsp; | &emsp; Serenity Nails & Spa
+	<div>
+
+
 	<script type="text/javascript" src="js/index.js"></script>
 
 </body>
