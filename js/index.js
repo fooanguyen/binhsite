@@ -71,6 +71,7 @@ function loadgallery(){
 		document.getElementsByClassName("previous")[0].style.visibility = "hidden";
 		document.getElementsByClassName("next")[0].style.visibility = "hidden";
 	}
+
 	//specify number of images is 64 in folder
 	for (var i = num; i < loopsize; i++) {
 		var jpgsrc = "gallery/image(" + (i + 1) + ').jpg';
@@ -93,6 +94,7 @@ function loadgallery(){
 }
 
 function next(){
+	location.href = "#gallery";
 	//console.log(num);
 	if(num < numimg){
 		if((numimg - num) >= 9){
@@ -137,6 +139,7 @@ function next(){
 }
 
 function previous(){
+	location.href = "#gallery";
 	//console.log(num);
 	if(num >= 9){
 		if((num - 9) >= 9){
