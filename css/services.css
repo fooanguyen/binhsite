@@ -84,6 +84,152 @@ li a.active	{
 	border-bottom: 1px solid white;
 }
 
+.servicescontainer{
+}
+
+.services{
+	width: 20%;
+	/*height: 675px;*/
+	margin-left: 5%;
+	float: left;
+}
+
+input:focus {
+    outline:none !important;
+}
+
+.button{
+	width: 100%;
+	float: left;
+	height: 90px;
+	background: green;
+	margin-top: 5px;
+
+	/*color: rgba(0, 0, 0, 0); transparent color text*/
+	font-size: 16px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: orange;
+	border-radius: 15px 15px 15px 15px;
+	white-space: normal;
+	
+}
+.button:nth-child(8){
+	margin-bottom: 5px;
+}
+.pedi:hover{
+	background-image: url("../servicesimg/pedicure.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 150%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.mani:hover{
+	background-image: url("../servicesimg/manicure.jpeg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 200%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.sns:hover{
+	background-image: url("../servicesimg/sns.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 150%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.face:hover{
+	background-image: url("../servicesimg/facial.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 150%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.wax:hover{
+	background-image: url("../servicesimg/wax.jpeg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 150%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.eyelash:hover{
+	background-image: url("../servicesimg/eyelash.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 300%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.microblade:hover{
+	background-image: url("../servicesimg/eyebrows.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 120% 100%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.addservices:hover{
+	background-image: url("../servicesimg/addservices.jpeg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	color: rgba(0, 0, 0, 0); 
+}
+
+.servicescontent{
+	width: 65%;
+	margin-left: 30%;
+	min-height: 765px;
+	text-align: center;
+}
+
+.servicetitle{
+	padding-top: 3px;
+	font-family:Seven-Swordmen-BB;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 3vw;
+	background: orange;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th{
+	text-align: center;
+	background: darkblue;
+	width: 15%;
+	border: none;
+	color: white;
+}
+
+th:nth-child(2){
+	background: black;
+	width: 70%;
+}
+
+td{
+	background: darkblue;
+	border: none;
+
+}
+
+td:nth-child(2){
+	background: white;
+}
+
+td:nth-child(1){
+	color: white;
+}
+
 .footer{
 	padding-top: 1%;
 	text-align: center;
@@ -91,8 +237,6 @@ li a.active	{
 	color: green;
 	font-weight: bold;
 	height: 5%;
-
-	
 }
 
 @media screen and (max-width: 900px) {
@@ -104,15 +248,20 @@ li a.active	{
 	li a {
 		font-size: 10px;	
 	}
-
 }
 
 @media screen and (max-width: 700px){
 	li a {
 		font-size: 8px;	
 	}
-}
 
+}
+@media screen and (max-width: 600px){
+	.button{
+		font-size: 14px;	
+	}
+
+}
 @media screen and (max-width: 500px) {
 	
 	body{
@@ -171,7 +320,7 @@ li a.active	{
 		border-radius: 0px;
 		padding-top: 10px;
 		height: 30px;
-		
+		background: green;
 	}
 
 	li a:hover:not(.active) {
@@ -186,6 +335,24 @@ li a.active	{
 		border-bottom: none;
 		border-image: none;
 	}
+	.servicescontainer{
+		margin-top: 120px;
+	
+	}
+	
+	.services{
+		margin-left:0;
+	}
+	.servicescontent{
+		width: 79%;
+		margin-left: 21%;
+		min-height: 765px;
+	}
+	
+	.button{
+		font-size: 10px;
+	}
+
 
 }
 

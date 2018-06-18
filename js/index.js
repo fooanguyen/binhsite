@@ -90,7 +90,6 @@ function loadgallery(){
 		hrefelement.appendChild(imgelement);
 		gal[0].appendChild(hrefelement);
 	}
-
 }
 
 function next(){
