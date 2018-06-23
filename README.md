@@ -1,1 +1,1 @@
-# binhsite
+Site is done using HTML, CSS, JavaScript
